@@ -18,5 +18,6 @@ deploy:
   skip_cleanup: true
   name: $NAME
   on:
-    branch: master
+    branch: /v\d+\.\d+\.\d+/
+#    branch: master
 #    condition: tag =~ v\d+\.\d+\.\d+
